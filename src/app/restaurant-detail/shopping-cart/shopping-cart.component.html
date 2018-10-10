@@ -5,8 +5,8 @@
     <h3 class="box-title">Carrinho</h3>
   </div>
   <!-- /.box-header -->
-  <div class="box-body" *ngIf="!itens().length">
-    <div>
+  <div class="box-body" >
+    <div *ngIf="!itens().length">
       <p class="text-center">
         Seu Carrinho está vazio.
       </p>
